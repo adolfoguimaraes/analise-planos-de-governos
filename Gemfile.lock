@@ -1,0 +1,49 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Ascii85 (1.1.0)
+    afm (0.2.2)
+    date (3.2.2)
+    escape_utils (1.2.1)
+    hashery (2.1.2)
+    io-wait (0.2.1)
+    json (2.6.1)
+    net-http (0.2.0)
+      net-protocol
+      uri
+    net-protocol (0.1.2)
+      io-wait
+      timeout
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
+    pdf-reader (2.9.2)
+      Ascii85 (~> 1.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
+    ruby-rc4 (0.1.5)
+    stringio (3.0.1)
+    time (0.2.0)
+      date
+    timeout (0.2.0)
+    ttfunk (1.7.0)
+    uri (0.11.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  escape_utils
+  json
+  net-http
+  open-uri
+  pdf-reader
+
+RUBY VERSION
+   ruby 3.1.0p0
+
+BUNDLED WITH
+   2.3.3
