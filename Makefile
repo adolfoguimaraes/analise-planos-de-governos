@@ -8,9 +8,9 @@ clean-files:
 PHONY: clean-files
 
 donwload-files:
-	ruby ./src/pdf/download.rb
+	ruby ./src/scripts/download.rb
 PHONY: donwload-files
 
 extract:
-	ruby ./src/pdf/extract.rb
+	ruby ./src/scripts/extract.rb
 PHONY: extract
