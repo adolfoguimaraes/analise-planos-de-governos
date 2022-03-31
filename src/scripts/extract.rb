@@ -1,17 +1,7 @@
-require 'pdf/reader'
-require 'open-uri'
+require './src/main'
 
-# reader = PDF::Reader.new("assets/teste.pdf")
-io = open('https://eppg.fgv.br/sites/default/files/teste.pdf')
-reader = PDF::Reader.new(io)
+puts 'Init fetch files...'
 
-puts reader.pdf_version
-puts reader.info
-puts reader.metadata
-puts reader.page_count
+Services::ExtractText.new
 
-reader.pages.each do |page|
-  # puts page.fonts
-  puts page.text
-  # puts page.raw_content
-end
+puts 'Extracted text of all files'

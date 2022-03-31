@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'net/http'
 require 'json'
+require 'pdf/reader'
 
 dir_imports = ['errors', 'services']
 
